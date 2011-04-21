@@ -9,7 +9,7 @@
 #import "Control_FunViewController.h"
 
 @implementation Control_FunViewController
-
+@synthesize nameField, numberField;
 
 
 /*
@@ -60,6 +60,8 @@
 
 
 - (void)dealloc {
+    [nameField release];
+    [numberField release];
     [super dealloc];
 }
 
