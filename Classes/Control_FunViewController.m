@@ -36,7 +36,9 @@
     [super viewDidLoad];
 }
 */
-
+- (IBAction)textFieldDoneEditing:(id)sender {
+    [sender resignFirstResponder];
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.

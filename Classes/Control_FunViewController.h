@@ -14,5 +14,6 @@
 }
 @property (nonatomic, retain) IBOutlet UITextField *nameField;
 @property (nonatomic, retain) IBOutlet UITextField *numberField;
+- (IBAction)textFieldDoneEditing:(id)sender;
 @end
 
